@@ -1,0 +1,60 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+<!--
+    <record model="ir.ui.view" id="sge2024.list">
+      <field name="name">sge2024 list</field>
+      <field name="model">sge2024.sge2024</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
+        </tree>
+      </field>
+    </record>
+-->
+
+    <!-- actions opening views on models -->
+<!--
+    <record model="ir.actions.act_window" id="sge2024.action_window">
+      <field name="name">sge2024 window</field>
+      <field name="res_model">sge2024.sge2024</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+-->
+
+    <!-- server action to the one above -->
+<!--
+    <record model="ir.actions.server" id="sge2024.action_server">
+      <field name="name">sge2024 server</field>
+      <field name="model_id" ref="model_sge2024_sge2024"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": model._name,
+        }
+      </field>
+    </record>
+-->
+
+    <!-- Top menu item -->
+<!--
+    <menuitem name="sge2024" id="sge2024.menu_root"/>
+-->
+    <!-- menu categories -->
+<!--
+    <menuitem name="Menu 1" id="sge2024.menu_1" parent="sge2024.menu_root"/>
+    <menuitem name="Menu 2" id="sge2024.menu_2" parent="sge2024.menu_root"/>
+-->
+    <!-- actions -->
+<!--
+    <menuitem name="List" id="sge2024.menu_1_list" parent="sge2024.menu_1"
+              action="sge2024.action_window"/>
+    <menuitem name="Server to list" id="sge2024" parent="sge2024.menu_2"
+              action="sge2024.action_server"/>
+-->
+  </data>
+</odoo>

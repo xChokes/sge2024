@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_sge2024_sge2024,sge2024.sge2024,model_sge2024_sge2024,base.group_user,1,1,1,1
