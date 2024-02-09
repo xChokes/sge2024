@@ -3,21 +3,20 @@
     'name': "sge2024",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        Modulo MUY guapo que no hace absolutamente nada""",
 
     'description': """
-        Long description of module's purpose
+        Modulo que no hace nada pero queda guapo
     """,
 
-    'author': "My Company",
+    'author': "Alberto Lopez",
     'website': "https://www.yourcompany.com",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/16.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
     'category': 'Uncategorized',
-    'version': '0.1',
+    'version': '0.2',
 
     # any module necessary for this one to work correctly
     'depends': ['base'],
